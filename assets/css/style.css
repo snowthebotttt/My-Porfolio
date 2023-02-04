@@ -1,0 +1,241 @@
+* {
+  font-family:Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Box styling for header element. */
+.box-header {
+background-color:rgb(53, 104, 172);
+height: 100px;
+padding: 20px;
+border-top: black solid 2px;
+border-bottom: black solid 2px;
+box-shadow: black 0 0 8px;
+}
+
+/*Header content positioning*/
+header {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column; 
+}
+
+/*Interactivity for nav links*/
+nav a:hover {
+    color: #fff;
+}
+
+/*Interactivity for social links*/
+a:hover {
+  color: #fff;
+}
+
+    /*Style for H1 element. */
+  h1 {
+    color: #000000;
+    margin: 0;
+    padding-top: 20px;
+    font-size: 50px;
+    text-shadow: 1px 1px 4px black;
+  }
+  
+  /* Layout for Nav links. */
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+  }
+
+  /*Spacing for Nav links*/
+  nav li {
+
+    margin: 0 10px 5px;
+    text-decoration: none;
+    border-bottom: 0.2em solid black;
+  }
+
+  /*Font size / Color for Nav links*/
+  nav a {
+    text-decoration: none;
+    text-shadow: 2px 2px 8px black;
+  }
+
+ 
+  /*Positioning for avatar*/
+
+  #profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+  }
+
+  /*Border Style for avatar*/
+  #prof {
+    border: black solid 2px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px black;
+    width: 300px;
+    height: 300px;
+  }
+  
+  /*Positioning for main content*/
+
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  /*Styling for H2 Element*/
+  h2 {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
+  }
+
+  /*About me section*/
+  #about {
+    margin: 2%;
+  }
+
+  /*Work section*/
+  #work {
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+
+  /*Contact me section*/
+  #contact-me {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
+  }
+
+  /*Layout for social links*/
+  #contact-me ul {
+
+    margin: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+
+  /*Style for social / nav links*/
+  li a {
+
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  /*Container for work images / links*/
+  
+  .container-bottom {
+    max-width: 1020px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+  
+  }
+
+  /*Main container for largest image*/
+  .container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+
+  /*Sizing for images 1-5*/
+  .img2 {
+    order: 1;
+    width: 1020px;
+    height: 500px;
+  
+  }
+
+  .img1 {
+    order: 2;
+    width: 45%;
+    height: auto;
+    
+  }
+
+
+  .img3 {
+    order: 3;
+    width: 45%;
+    height: auto;
+    
+  }
+
+  .img4 {
+    order: 4;
+    width: 45%;
+    height: auto;
+    
+  }
+ 
+  .img5 {
+    order: 5;
+    width: 45%;
+    height: auto;
+  }
+
+  /*Style for images*/
+  .img1, .img2, .img3, .img4, .img5 {
+    border: black solid 2px;
+    margin: 4px;
+    box-shadow: 2px 2px 8px black;
+    border-radius: 10px;
+  }
+  /*Background color / text color for body*/
+  body {
+    color: #000000;
+    background: linear-gradient(to bottom, #1f63a6 0%, #99ccff 100%);
+  }
+
+  /*Font size for nav links @ top of page*/
+  .nav-text {
+    font-size: 30px;
+  }
+
+  
+  /*Media Queries to make the website responsive to changes in dimension*/
+
+  @media screen and (max-width: 768px) {
+    .img2 {
+
+      width: 750px;
+      height: 300px;
+    
+    }
+  }
+
+  @media screen and (max-width: 575px) {
+
+     .img2 {
+
+      width: 400px;
+      height: 150px;
+    
+    }
+  }
+
+
+  
+
